@@ -1,9 +1,7 @@
 
 package unit03;
 
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
 public class task01 {
 	public static void main(String arg[]) {
