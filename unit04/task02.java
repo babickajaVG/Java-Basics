@@ -12,7 +12,7 @@ public class task02 {
 		GetAnswer(c, s);
 	}
 
-	public static int GetSFromConsole(int a, int b) {
+	public static int GetSFromConsole(int a, int b) {// getSFromConsole - это Java, а не C#)
 		System.out.println("Реши пример: " + a + " * " + b + " =");
 		Scanner scs = new Scanner(System.in);
 		int s = scs.nextInt();
@@ -43,3 +43,4 @@ public class task02 {
 	}
 
 }
+// задачи модуля 4 зачтены
