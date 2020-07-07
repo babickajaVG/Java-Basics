@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
+// зачтено
+// только в класс Logic данные для обработки лучше передавать как параметры методов
+// а то класс больше на Library, т.е. сущность, поход
 public class BookLogic {
 
 	private List<Book> books = new ArrayList<Book>();
