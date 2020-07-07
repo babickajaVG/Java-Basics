@@ -2,7 +2,7 @@ package unit08;
 
 import java.util.List;
 
-public class Customers {
+public class Customers {// старайтесь классы множественным числом не называть
 
     private List<Customer> customers;
 

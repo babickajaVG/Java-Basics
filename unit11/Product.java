@@ -1,6 +1,6 @@
 package unit11;
 
-public class Product {
+public class Product {// а куда пропали изученные методы equals и hashCode? не использозвать их и далее добавлять объекты в коллекцию - ошибка
 	private int price;
 	private String name;
 	

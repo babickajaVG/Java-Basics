@@ -2,7 +2,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.List;
-
+// задание защитано, но аккуратно с кодом
 public class Library {
 
 	public static void main(String[] args) {
@@ -16,10 +16,10 @@ public class Library {
                 String[] items = line.split(" ");
                 myBook.addBook(new Book(Integer.parseInt(items[0]), items[1], Integer.parseInt(items[2])));
             }
-            reader.close();
+            reader.close();// close нужно вызывать в блоке finally
         }
-        catch (Exception ex) {
-            ex.printStackTrace();
+        catch (Exception ex) {// просмотри еще раз объяснения по работе с исключениями, нужно перехватывать конкретные исключения
+            ex.printStackTrace();// ну и ошибка кодирования - ты погасила исключение и пошла дальше выполнять код - как бы исключение ничего и не сотворило плохого
         }
 
 		Book findBook = myBook.findByAuthor("Грибоедов");
